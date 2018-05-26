@@ -1,3 +1,3 @@
 <?php
 
-include_once("maintest.html");
+include_once("pages/maintest.html");
