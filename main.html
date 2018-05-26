@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+	<!-- <meta name=Гўв‚¬Е“viewportГўв‚¬Вќ content=Гўв‚¬Е“width=device-width, initial-scale=1"> -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	 <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	 <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/main.css">
+	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<div class="menu-div" id="col-sm-12">
+		 <a href="main.html" class="active">О НАС</a>
+		 <a href="pages/news.html">НОВОСТИ</a>
+		  <a href="pages/maintest.html"><img src="images/1234.png"></a>	
+		 <a href="pages/menu.html">МЕНЮ</a>
+		 <a href="pages/contacts.html">КОНТАКТИ</a>
+		 <!-- <a href=Гўв‚¬Е“javascript:void(0);Гўв‚¬Вќ class=Гўв‚¬Е“iconГўв‚¬Вќ onclick=Гўв‚¬Е“myFunction()Гўв‚¬Е“>&#9776;</a> -->	 
+	</div>
+
+	<div class="test">
+    </div>
+
+	<div class="main-text col-sm-12">
+		<h1>О КОМПАНИИ</h1>
+		<p>Мы - кондитерская, место где Вы можете насладиться <br>вкуснейшими десертами на любой вкус!</p>
+		<img src="../images/about1.png">
+	</div>	
+	
+	<div class="test-1">
+    </div>
+
+    <div class="about-main col-sm-12">
+    	<img src="../images/main.png">
+    	<img src="../images/main2.png">
+    	<img src="../images/main3.png">
+    	<img src="../images/main4.png">
+    </div>
+
+    <div class="test-2">
+    </div>
+
+<div class="wrapper">
+  <ul>
+    <li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+    <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+  </ul>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("menu-div");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+<div class="footer">
+	<p>© CakeBar 2018</p>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+	<!-- <meta name=вЂњviewportвЂќ content=вЂњwidth=device-width, initial-scale=1"> -->
+	<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+	 <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+	 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="../css/main.css">
+	 <script type="text/javascript" src="js/slider.js"></script>
+	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<div class="menu-div-midd-page col-md-12">
+	<div class="menu-img col-md-4">
+		 <a href="maintest.html"><img src="../images/1234.png"></a>
+    </div>
+	<div class="menu-text col-md-8">	
+		<a href="../main.html" class="active">О НАС</a>
+		<a href="news.html">НОВОСТИ</a>	
+		<a href="menu.html">МЕНЮ</a>
+		<a href="contacts.html">КОНТАКТЫ</a>
+	</div>	 
+</div>
+
+<center>
+	<div class="main-food col-md-12">
+	<div class="dessert col-md-4">
+		<img src="../images/cacke.png">
+		<p>Десерты</p>
+	</div>
+	<div class="dessert col-md-4">
+		<img src="../images/drink.png">
+		<p>Напитки</p>
+    </div>
+    <div class="dessert col-md-4">
+    	<img src="../images/order.png">
+    	<p>Торты на заказ</p>
+    </div>
+</div>
+</center>
+
+
+<div class="wrapper">
+  <ul>
+    <li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+   <!--  <li class="twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li> -->
+    <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+    <!-- <li class="google"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+    <li class="whatsapp"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li> -->
+  </ul>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("menu-div");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+<div class="footer">
+  <p>© CakeBar 2018</p>
+</div>
+
+
+
+
+
+
+</body>
+</html>
